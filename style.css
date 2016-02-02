@@ -2,6 +2,9 @@
 margin:0;
 padding:0;
 }
+a {
+    text-decoration:none;
+}
 @font-face {
     font-family: "Blogger SL"; /* Имя шрифта */
     src: url(fonts/Blogger_Sans-Light.otf); /* Путь к файлу со шрифтом */
@@ -11,18 +14,16 @@ padding:0;
     height: 50px;
     background: linear-gradient(to right, #939292, #cbcaca, #939292);
     margin: auto;
-
-
 }
+
 #uppole{
     font-family: "Blogger SL";
-    font-size: 18pt;
+    font-size: 12pt;
     color: #ffffff;
     padding-left: 98px;
-    padding-top: 6px;
-
-
+    padding-top: 14px;
 }
+
 .whiteline{
     float:left;
     width: 2px;
@@ -30,22 +31,28 @@ padding:0;
     height: 31px;
     margin-left: 5px;
     margin-right: 5px;
+    margin-top: -6px;
 }
+
 #uppole>div:first-child{
     margin-left: 0;
 }
+
 .whitelineText{
     float: left;
+    color: inherit;
 }
+
 .znachki{
-    margin-left: 945px;
+    margin-left: 950px;
 }
 
 .znachki2{
-    margin-left: 10px;
-    border-radius: 9px;
-    height: 37px;
+    margin-left: 5px;
+    border-radius: 6px;
+    height: 36px;
     width: 36px;
+    margin-top: -8.5px;
 }
 .mastserebra{
     height: 108px;
