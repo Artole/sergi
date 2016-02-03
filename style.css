@@ -9,19 +9,33 @@ a {
     font-family: "Blogger SL"; /* Имя шрифта */
     src: url(fonts/Blogger_Sans-Light.otf); /* Путь к файлу со шрифтом */
 }
-.uppole{
-    width: 1200px;
-    height: 50px;
-    background: linear-gradient(to right, #939292, #cbcaca, #939292);
-    margin: auto;
+@font-face {
+    font-family: "Majestic_regular"; /* Имя шрифта */
+    src: url(fonts/majestic_regular.ttf); /* Путь к файлу со шрифтом */
 }
 
+#allinclusive{
+    width: 1200px;
+    height: 2080px;
+    margin: auto;
+}
 #uppole{
+    width: 1200px;
+    height: 50px;
+    position: relative;
+    margin: auto;
+    background-image: -webkit-radial-gradient( 50% 50%, ellipse closest-side, #cccbcb 0%, #797979 100%);
+    box-shadow: 0px 1px 5px 0px rgba(89, 88, 88, 0.75);
+
+}
+
+#uppole1{
     font-family: "Blogger SL";
-    font-size: 12pt;
+    font-size: 18px;
     color: #ffffff;
     padding-left: 98px;
-    padding-top: 14px;
+    padding-top: 11px;
+
 }
 
 .whiteline{
@@ -29,9 +43,9 @@ a {
     width: 2px;
     background-color: #ffffff;
     height: 31px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: -6px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: -1.5px;
 }
 
 #uppole>div:first-child{
@@ -45,6 +59,7 @@ a {
 
 .znachki{
     margin-left: 950px;
+    margin-top: -4px;
 }
 
 .znachki2{
@@ -52,15 +67,133 @@ a {
     border-radius: 6px;
     height: 36px;
     width: 36px;
-    margin-top: -8.5px;
-}
-.mastserebra{
-    height: 108px;
-    width: 1200px;
-    margin: auto;
-}
-#kolco{
-    margin-top: 7px;
-    margin-left: 179px;
 
 }
+#mastserebra{
+    position: relative;
+    width: 385px;
+    height: 119px;
+    float: left;
+    padding-left: 99px;
+
+
+}
+
+.masterskayaText{
+    font-size:40px;
+    font-family: "Majestic_regular";
+    color: #e73535;
+    line-height: 1.2;
+}
+#kolco{
+    z-index: -1;
+    width: 78px;
+    height: 106px;
+    margin-top: -95px;
+    margin-left: 75px;
+    position: relative;
+
+}
+#mast{
+    position: relative;
+    z-index: 1;
+    margin-top: 34px;
+}
+#serebra{
+
+    position: relative;
+    margin-top:-22px;
+    z-index: 2;
+
+}
+#poisk{
+    position: relative;
+    float:left;
+    height: 119px;
+    width: 716px;
+    padding-top: 22px;
+}
+#trubka{
+    width: 28px;
+    height: 28px;
+    float: left;
+}
+#nomertelefona{
+
+    font-family: "Blogger SL";
+    font-size: 18px;
+    color: #f32828;
+    margin-left: 5px;
+    padding-top: 2px;
+    float: left;
+}
+#emailznak{
+    padding-left: 110px;
+    float: left;
+
+}
+#email{
+    font-family: "Blogger SL";
+    font-size: 18px;
+    color: #f32828;
+    margin-left: 5px;
+    float: left;
+}
+#ramkapoiska{
+
+    margin-top: 40px;
+
+}
+#ramkapoiskastyle{
+    width: 410px;
+    height: 41px;
+    border: 1px solid #848383;
+    border-radius: 14px;
+    background-color: #ffffff;
+    float:left;
+    outline: none;
+    -webkit-appearance: none;
+    color: #848383;
+    padding-left: 20px;
+}
+
+#lupa {
+    margin-left: -36px;
+    margin-top: 8px;
+    float:left;
+}
+#lupastyle{
+    background-image: url("pictures/lupa.png");
+    background-color: #ffffff;
+    width: 26px;
+    height: 26px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#korzinastyle{
+
+    position: relative;
+    z-index: -100;
+    margin-left: 466px;
+    margin-top: -112px;
+
+}
+
+#busket{
+    position: relative;
+    margin-left: 515px;
+    margin-top: -110px;
+}
+#korzinatext{
+
+    margin-left: 490px;
+    margin-top: -75px;
+}
+#korzinanadpis{
+    font-size: 18px;
+    font-family: "Blogger SL";
+    color: #ffffff;
+    line-height: 1.2;
+}
+
