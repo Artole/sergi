@@ -25,7 +25,9 @@ a {
     position: relative;
     margin: auto;
     background-image: -webkit-radial-gradient( 50% 50%, ellipse closest-side, #cccbcb 0%, #797979 100%);
+    background-image: -moz-radial-gradient( 50% 50%, ellipse closest-side, #cccbcb 0%, #797979 100%);
     box-shadow: 0px 1px 5px 0px rgba(89, 88, 88, 0.75);
+    z-index: 10;
 
 }
 
@@ -58,6 +60,7 @@ a {
 }
 
 .znachki{
+
     margin-left: 950px;
     margin-top: -4px;
 }
@@ -86,7 +89,7 @@ a {
     line-height: 1.2;
 }
 #kolco{
-    z-index: -1;
+    z-index: 1;
     width: 78px;
     height: 106px;
     margin-top: -95px;
@@ -96,7 +99,7 @@ a {
 }
 #mast{
     position: relative;
-    z-index: 1;
+    z-index: 2;
     margin-top: 34px;
 }
 #serebra{
@@ -112,6 +115,8 @@ a {
     height: 119px;
     width: 716px;
     padding-top: 22px;
+
+
 }
 #trubka{
     width: 28px;
@@ -172,9 +177,10 @@ a {
     cursor: pointer;
 }
 #korzinastyle{
+    z-index:9;
 
     position: relative;
-    z-index: -100;
+
     margin-left: 466px;
     margin-top: -112px;
 
@@ -182,10 +188,13 @@ a {
 
 #busket{
     position: relative;
+    z-index: 11;
     margin-left: 515px;
     margin-top: -110px;
 }
 #korzinatext{
+    position: relative;
+    z-index: 11;
 
     margin-left: 490px;
     margin-top: -75px;
@@ -195,5 +204,421 @@ a {
     font-family: "Blogger SL";
     color: #ffffff;
     line-height: 1.2;
+}
+#main_pall_pos{
+    position: relative;
+    margin-top: 118px;
+    background-image: -webkit-radial-gradient( 50% 50%, ellipse closest-side, #cccbcb 0%, #cac9c9 100%);
+    border-radius: 8px;
+    box-shadow: 0px 1px 5px 0px rgba(89, 88, 88, 0.75);
+    margin-left: 99px;
+    width: 999px;
+    height: 44px;
+
+}
+
+.main_pall_style{
+    float: left;
+    display: block;
+    font-size: 18px;
+    font-family: "Blogger SL";
+    color: #ffffff;
+    line-height: 1.2;
+    margin-top: -10px;
+    margin-left: 30px;
+
+}
+.main_pall_style:hover{
+    color:#f32828;
+}
+
+.main_pall{
+    margin-left: 30px;
+    margin-top: -23px;
+    float: left;
+    width: 2px;
+    height: 44px;
+    background-color: #898989;
+}
+#banner{
+    width: 1200px;
+    padding-top: 15px;
+}
+#main_shop{
+
+    padding-left: 131px;
+    font-size: 16px;
+    font-family: "Blogger SL";
+    color: #868484;
+    text-decoration: underline;
+    line-height: 1.2;
+    float: left;
+}
+#strelka{
+    margin-top: 1px;
+    margin-left: 4px;
+    float: left;
+
+}
+#internet_shop{
+    margin-left: 3px;
+    font-size: 16px;
+    font-family: "Blogger SL";
+    color: #e51616;
+    line-height: 1.2;
+    float:left;
+}
+#banner_kartinka{
+    position: relative;
+    margin-left: 99px;
+    margin-top: 37px;
+    clear: left;
+    width: 1000px;
+    height: 320px;
+    background-image: url("pictures/banner_picture.png");
+
+}
+#leftbutton{
+    position: relative;
+    width: 46px;
+    height: 46px;
+    margin-top: -188px;
+    margin-left: 99px;
+    float: left;
+    border-radius: 24px;
+
+}
+#leftbutton:hover{
+    border: 1px solid #868484;
+    cursor: pointer;
+}
+#rightbutton{
+    position: relative;
+    width: 46px;
+    height: 46px;
+    margin-top: -188px;
+    margin-left: 1051px;
+    border-radius: 24px;
+    float: left;
+
+}
+#rightbutton:hover{
+    border: 1px solid #868484;
+    cursor: pointer;
+}
+#choiseblockpos{
+    clear: left;
+    padding-left: 544px;
+    padding-top: 10px;
+
+}
+.choiseblock{
+
+    width: 23px;
+    height: 15px;
+    background-color: #858484;
+    border-radius: 8px;
+    margin-left: 6px;
+    float:left;
+
+}
+.choiseblock:first-child{
+    margin-left: 0;
+}
+.choiseblock:hover{
+    width: 29px;
+    height: 19px;
+    background-color: #e51616;
+    margin-top: -1.5px;
+    cursor: pointer;
+}
+
+#popularstaff{
+    clear: left;
+    margin-top: 20px;
+    width: 1200px;
+    height: 1280px;
+}
+#katalogspace{
+
+    width: 383px;
+    height: inherit;
+    float: left;
+}
+#popularspace{
+
+    width:817px;
+    height: inherit;
+    float: left;
+}
+#katalog{
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: "Blogger SL";
+    color: #fa2c2c;
+    margin-left: 107px;
+    margin-top: 35px;
+    float: left;
+}
+.populartovari{
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: "Blogger SL";
+    color: #fa2c2c;
+    margin-top: 35px;
+    margin-left: 8px;
+    float: left;
+}
+#redlineleft{
+    clear: left;
+    height: 2px;
+    width: 247px;
+    background-color: #fa2c2c ;
+    margin-left: 99px;
+    margin-top: 61px;
+}
+#redlineright{
+    clear: left;
+    height: 2px;
+    width: 718px;
+    background-color: #fa2c2c ;
+    margin-top: 61px;
+}
+.kolcastyle{
+    line-height: 1.2;
+    font-size: 18px;
+    font-family: "Blogger SL";
+    color: #999999;
+    margin-left: 107px;
+    margin-top: 7px;
+    float: left;
+    cursor: pointer;
+}
+
+#upstrelka{
+    margin-top: -20px;
+    margin-left: 323px;
+    float: left;
+    width: 14px;
+    height: 15px;
+    background-image: url("pictures/strelkaup.png");
+    cursor: pointer;
+}
+.downstrelka{
+    margin-top: -20px;
+    margin-left: 323px;
+    float: left;
+    width: 14px;
+    height: 15px;
+    background-image: url("pictures/strelkadown.png");
+    cursor: pointer;
+}
+.grayline{
+    clear:left;
+    height: 1px;
+    width: 247px;
+    background-color: #999999;
+    margin-left: 99px;
+    margin-top: 32px;
+}
+.graydot{
+    width: 7px;
+    height: 7px;
+    border-radius: 3px;
+    background-color: #999999;
+    float:left;
+    margin-left: 130px;
+    margin-top: 14px;
+    clear: left;
+}
+
+.kolcastylespisok{
+    line-height: 1.2;
+    font-size: 18px;
+    font-family: "Blogger SL";
+    color: #999999;
+    margin-left: 4px;
+    margin-top: 7px;
+    float: left;
+    text-decoration: underline;
+    cursor: pointer;
+
+
+}
+
+#kolcastylespisok1{
+    line-height: 1.2;
+    font-size: 18px;
+    font-family: "Blogger SL";
+    color: #999999;
+    margin-left: 4px;
+    margin-top: 2px;
+    float: left;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#graydot1{
+    width: 7px;
+    height: 7px;
+    border-radius: 3px;
+    background-color: #999999;
+    float:left;
+    margin-left: 130px;
+    margin-top: 9px;
+    clear: left;
+}
+.ocontovka1{
+    border: 1px solid #858484;
+    border-radius: 9px;
+    background-color: #ffffff;
+    width: 225px;
+    height: 269px;
+    margin-top: 10px;
+    float:left;
+}
+.ocontovka1line{
+    border: 1px solid #858484;
+    border-radius: 9px;
+    background-color: #ffffff;
+    width: 225px;
+    height: 269px;
+    margin-top: 10px;
+    margin-left: 18px;
+    float:left;
+}
+.samisergi{
+    margin-left: 30px;
+    margin-top: 8px;
+    background-image: url("pictures/samisergi.png");
+    width: 164px;
+    height: 164px;
+}
+.sergilazurit{
+    font-size: 18px;
+    font-family: "Blogger SL";
+    color: #494848;
+    text-decoration: underline;
+    line-height: 1.2;
+    text-align: center;
+
+}
+.price{
+    font-size: 18px;
+    font-family: "Blogger SL";
+    color: #858484;
+    line-height: 1.2;
+    margin-left: 60px;
+    margin-top: 10px;
+    float: left;
+
+
+
+}
+._1600{
+    font-size: 22px;
+    font-family: "Blogger SL";
+    color: #ea2020;
+    line-height: 1.2;
+    float: left;
+    margin-top: 6px;
+
+}
+.rub{
+    background-image: url("pictures/rub.png");
+    width: 9px;
+    height: 13px;
+    float: left;
+    margin-top: 14px;
+    margin-left: 2px;
+
+}
+.addramka{
+    position: relative;
+    clear:left;
+    border-radius: 8px;
+    background-image: -webkit-radial-gradient( 50% 50%, ellipse closest-side, #fd2e2e 0%, #b70b0b 100%);
+    width: 101px;
+    height: 27px;
+    margin-left: 60px;
+    margin-top: 6px;
+    user-select: none;
+    text-decoration: none;
+    outline: none;
+    font-size: 14px;
+    font-family: "Blogger SL";
+    color: #ffffff;
+    line-height: 1.2;
+    float:left;
+    text-align: left;
+    padding-left: 7px;
+    border: none;
+    cursor: pointer;
+
+
+}
+.korzina2{
+    position: relative;
+    background-image: url("pictures/littlebusket.png");
+    width: 22px;
+    height: 19px;
+    margin-left: -28px;
+    margin-top: 10px;
+    float: left;
+    z-index: 5;
+}
+.ocontovka2{
+    border: 1px solid #858484;
+    border-radius: 9px;
+    background-color: #ffffff;
+    width: 225px;
+    height: 269px;
+    margin-top: 20px;
+    float:left;
+}
+.ocontovka2line{
+    border: 1px solid #858484;
+    border-radius: 9px;
+    background-color: #ffffff;
+    width: 225px;
+    height: 269px;
+    margin-top: 20px;
+    margin-left: 18px;
+    float:left;
+}
+#watchall{
+    font-size: 18px;
+    font-family: "Blogger SL";
+    color: #858484;
+    text-decoration: underline;
+    line-height: 1.2;
+    margin-left: 488px;
+    margin-top: 10px;
+    float: left;
+    cursor: pointer;
+
+}
+#allright{
+    float: left;
+    width: 20px;
+    height: 20px;
+    padding-left: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.novietovari{
+    clear: left;
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: "Blogger SL";
+    color: #fa2c2c;
+    margin-left: 8px;
+    margin-top: 630px;
+}
+#redlinerightv2{
+    height: 2px;
+    width: 718px;
+    background-color: #fa2c2c ;
+    margin-top: 5px;
 }
 
