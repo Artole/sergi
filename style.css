@@ -16,7 +16,7 @@ a {
 
 #allinclusive{
     width: 1200px;
-    height: 2080px;
+    height: 2159px;
     margin: auto;
 }
 #uppole{
@@ -337,7 +337,7 @@ a {
     clear: left;
     margin-top: 20px;
     width: 1200px;
-    height: 1280px;
+    height: 1344px;
 }
 #katalogspace{
 
@@ -585,7 +585,7 @@ a {
     margin-left: 18px;
     float:left;
 }
-#watchall{
+.watchall{
     font-size: 18px;
     font-family: "Blogger SL";
     color: #858484;
@@ -597,7 +597,7 @@ a {
     cursor: pointer;
 
 }
-#allright{
+.allright{
     float: left;
     width: 20px;
     height: 20px;
@@ -615,10 +615,385 @@ a {
     margin-left: 8px;
     margin-top: 630px;
 }
-#redlinerightv2{
+.redlinerightv2{
     height: 2px;
     width: 718px;
     background-color: #fa2c2c ;
     margin-top: 5px;
 }
+.novinkamesto{
+    background-image: url("pictures/novinka.png");
+    width: 93px;
+    height: 88px;
+    margin-top: -201px;
+    margin-left: -9px;
 
+}
+.novinka {
+    font-size: 18px;
+    font-family: "Blogger SL";
+    color: #ffffff;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix( 0.73591407936716,-0.67707493513583,0.67707493513583,0.73591407936715,0,0);
+    -webkit-transform: matrix( 0.73591407936716,-0.67707493513583,0.67707493513583,0.73591407936715,0,0);
+    -ms-transform: matrix( 0.73591407936716,-0.67707493513583,0.67707493513583,0.73591407936715,0,0);
+    margin-left: -170px;
+    margin-top: -65px;
+
+
+}
+#novosti{
+    clear: left;
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: "Blogger SL";
+    color: #fa2c2c;
+    margin-left: 8px;
+    margin-top: 350px;
+
+}
+
+#novostiramka1{
+    border: 1px solid #858484;
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 350px;
+    height: 162px;
+    float: left;
+    margin-top: 20px;
+}
+#novostiramka2{
+    border: 1px solid #858484;
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 350px;
+    height: 162px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 14px;
+
+}
+.serginovosti{
+    margin-left: 5px;
+    margin-top: 5px;
+    background-image: url("pictures/serginovosti.png");
+    width: 100px;
+    height: 100px;
+    float: left;
+
+}
+.provoditsya_akcia{
+
+    font-size: 18px;
+    font-family: "Blogger SL";
+    color: #ea2020;
+    line-height: 1.2;
+    margin-top: 7px;
+    margin-left: 115px;
+
+}
+.akcia_cherta {
+    background-color: #ea2020;
+    margin-left: 110px;
+    width: 234px;
+    height: 2px;
+
+}
+
+.samtext {
+    font-size: 16px;
+    font-family: "Blogger SL";
+    color: #8b8b8b;
+    line-height: 1.2;
+    text-align: left;
+    margin-left: 110px;
+    margin-top: 3px;
+
+}
+
+.watches {
+    clear: left;
+    float: left;
+    background-image: url("pictures/watch.png");
+    width: 16px;
+    height: 17px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.vtornik {
+    font-size: 12px;
+    font-family: "Blogger SL";
+    color: #8b8b8b;
+    line-height: 1.2;
+    margin-top: 34px;
+    margin-left: 27px;
+}
+.comments{
+    background-image: url("pictures/comments.png");
+    width: 20px;
+    height: 16px;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+.commentstext{
+    font-size: 12px;
+    font-family: "Blogger SL";
+    color: #8b8b8b;
+    line-height: 1.2;
+    margin-top: 5px;
+    margin-left: 27px;
+
+}
+
+.readmorebutton {
+
+    border-radius: 8px;
+    background-image: -webkit-radial-gradient( 50% 50%, ellipse closest-side, rgb(253,46,46) 0%, rgb(183,11,11) 100%);
+    width: 135px;
+    height: 29px;
+    font-size: 14px;
+    font-family: "Blogger SL";
+    color: #ffffff;
+    line-height: 1.2;
+    user-select: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    float: left;
+    margin-top: -31px;
+    margin-left: 210px;
+}
+
+#naverhbutt {
+    clear: left;
+    border-radius: 50%;
+    background-color: #bbbbbb;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    margin-top: 180px;
+    margin-left: 20px;
+    user-select: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+#strelkaverh {
+    position: relative;
+    float: left;
+    background-image: url("pictures/naverhstrelka.png");
+    width: 28px;
+    height: 19px;
+    margin-left: 22px;
+    margin-top: 10px;
+    z-index: 2;
+    cursor: pointer;
+
+}
+
+#end{
+    width: 1200px;
+    height: 200px;
+    background-color: #bbbbbb;
+}
+
+#posovetovat_end{
+    width: 486px;
+    height: 200px;
+    float:left;
+}
+#katalog_end {
+    width: 125px;
+    height: 200px;
+    float:left;
+}
+#menu_end{
+    width: 130px;
+    height: 200px;
+    float:left;
+}
+#info_end{
+    width: 459px;
+    height: 200px;
+    float: left;
+
+}
+.posovetovat_drugu{
+    font-size: 14px;
+    font-family: "Blogger SL";
+    color: #ffffff;
+    text-decoration: underline;
+    line-height: 1.2;
+    float: left;
+    margin-left: 106px;
+    margin-top: 41px;
+
+}
+.znachki_end{
+    float: left;
+    margin-top: 31px;
+    margin-left: 7px;
+}
+
+.znachki2_end{
+    margin-left: 5px;
+    border-radius: 6px;
+    height: 36px;
+    width: 36px;
+}
+#paypics{
+    clear: left;
+    margin-left: 106px;
+    margin-top: 122px;
+
+
+}
+#line_end{
+    width: 382px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-top: 8px;
+    margin-left: 96px;
+
+}
+#omsk{
+    font-size: 14px;
+    font-family: "Blogger SL";
+    color: #ffffff;
+    line-height: 1.2;
+    margin-top: 5px;
+    margin-left: 106px;
+
+}
+.katalog_end_text {
+    font-size: 14px;
+    font-family: "Blogger SL";
+    color: #fa2c2c;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 28px;
+}
+.line_under_kat{
+
+    background-color: #fa2c2c;
+    width: 75px;
+    height: 3px;
+    margin-left: 30px;
+    margin-top: 3px;
+
+}
+.text_style_kolca {
+    font-size: 14px;
+    font-family: "Blogger SL";
+    color: #ffffff;
+    line-height: 1.2;
+    margin-left: 38px;
+    margin-top: 5px;
+    cursor: pointer;
+
+}
+.text_style_end {
+    font-size: 14px;
+    font-family: "Blogger SL";
+    color: #ffffff;
+    line-height: 1.2;
+    margin-left: 38px;
+    margin-top: 3px;
+    cursor: pointer;
+
+}
+
+.menu_end_text {
+    font-size: 14px;
+    font-family: "Blogger SL";
+    color: #fa2c2c;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 28px;
+}
+.line_under_menu{
+
+    background-color: #fa2c2c;
+    width: 87px;
+    height: 3px;
+    margin-left: 40px;
+    margin-top: 3px;
+
+}
+.text_style_main {
+    font-size: 14px;
+    font-family: "Blogger SL";
+    color: #ffffff;
+    line-height: 1.2;
+    margin-left: 48px;
+    margin-top: 5px;
+    cursor: pointer;
+
+}
+.text_style_end_menu {
+    font-size: 14px;
+    font-family: "Blogger SL";
+    color: #ffffff;
+    line-height: 1.2;
+    margin-left: 48px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.kontact_end_text {
+    font-size: 14px;
+    font-family: "Blogger SL";
+    color: #fa2c2c;
+    line-height: 1.2;
+    margin-left: 184px;
+    margin-top: 28px;
+}
+.kontact_red_line_end {
+    background-color: #fa2c2c;
+    width: 181px;
+    height: 3px;
+    margin-left: 176px;
+    margin-top: 3px;
+}
+.nomer_end{
+
+    font-size: 14px;
+    font-family: "Blogger SL";
+    color: #ffffff;
+    line-height: 1.2;
+    margin-left: 184px;
+    margin-top: 5px;
+
+}
+.email_end{
+    font-size: 14px;
+    font-family: "Blogger SL";
+    color: #ffffff;
+    line-height: 1.2;
+    margin-left: 184px;
+    margin-top: 3px;
+    text-decoration: underline;
+}
+.mi_rabotaem{
+    font-size: 14px;
+    font-family: "Blogger SL";
+    color: #ffffff;
+    line-height: 1.2;
+    margin-left: 184px;
+    margin-top: 10px;
+}
+.rezhim_raboti{
+
+    font-size: 14px;
+    font-family: "Blogger SL";
+    color: #ffffff;
+    line-height: 1.2;
+    margin-left: 184px;
+    margin-top: 1px;
+
+}
